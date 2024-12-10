@@ -1,7 +1,17 @@
-# Your name and your partner's name
-# Current date
-# Validating String Input (Tiered Assignment)
+# Apollos & Nathan
+# Dec 10 2024
+# Input Validation
 
-# Are you and your partner working on Level 1, Level 2 or Level 3 today?
-# Working on Level...
+# isalpha()
+run = True
 
+while run == True:
+    message = input('Enter a message with only alphabetic characters:')
+
+    if message.isalpha() == True:
+        print(message)
+        print('Valid input')
+        run = False
+    else:
+        print('Invalid input.')
+        print('Try again,')
